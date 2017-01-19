@@ -11,26 +11,25 @@ html, body {
 }
 .container {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-40%);
 }
 
 h1, p {
   text-align: center;
 }
 h1 {
-  /*font-weight: bolder;*/
   font-size: 3em;
 }
 
 p {
   font-weight: lighter;
   margin-top: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 img {
-  width: 200px;
+  width: 160px;
   opacity: 0.9;
 }
