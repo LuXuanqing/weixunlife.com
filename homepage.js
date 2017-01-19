@@ -1,6 +1,6 @@
 'use strict'
 const express = require('express')
-const port = 8000
+const port = 80
 
 var app = express()
 var server = app.listen(port, () => {
