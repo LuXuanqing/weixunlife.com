@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Pingfang SC', "Helvetica Neue", Helvetica,  roboto, 'Droid Sans Fallback', 'Droid Sans',Tahoma, Arial, “Microsoft YaHei”, “微软雅黑”, Heiti, “黑体”, sans-serif;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  /*background-color: rgb(255,240,0);*/
+  position: relative;;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+h1, p {
+  text-align: center;
+}
+h1 {
+  /*font-weight: bolder;*/
+  font-size: 3em;
+}
+
+p {
+  font-weight: lighter;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+img {
+  width: 200px;
+  opacity: 0.9;
+}
